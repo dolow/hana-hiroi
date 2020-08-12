@@ -769,7 +769,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hana hiroi
+  m_Text: hana hiroi
 --- !u!222 &1072309594
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1000,6 +1000,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: TransitionWhiteIn
       objectReference: {fileID: 0}
+    - target: {fileID: 8062237198371680962, guid: 5c0737121cc2847f584c46509cb762c4,
+        type: 3}
+      propertyPath: transitionIn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062237198371680962, guid: 5c0737121cc2847f584c46509cb762c4,
+        type: 3}
+      propertyPath: animate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6284426502635041952, guid: 5c0737121cc2847f584c46509cb762c4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1038,7 +1048,7 @@ PrefabInstance:
     - target: {fileID: 6284426502635041952, guid: 5c0737121cc2847f584c46509cb762c4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6284426502635041952, guid: 5c0737121cc2847f584c46509cb762c4,
         type: 3}
@@ -1054,16 +1064,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8062237198371680962, guid: 5c0737121cc2847f584c46509cb762c4,
-        type: 3}
-      propertyPath: transitionIn
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8062237198371680962, guid: 5c0737121cc2847f584c46509cb762c4,
-        type: 3}
-      propertyPath: animate
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c0737121cc2847f584c46509cb762c4, type: 3}
