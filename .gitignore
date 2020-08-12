@@ -1,0 +1,17 @@
+*.o
+*.o.d
+*.class
+.DS_Store
+
+# Unity
+Library/
+Logs/
+Temp/
+obj/
+*.csproj
+project.sln
+project.userprefs
+
+# Visual Studio 2015 cache/options directory
+.vs/
+
