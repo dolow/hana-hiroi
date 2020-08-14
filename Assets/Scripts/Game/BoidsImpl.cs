@@ -143,12 +143,13 @@ public class BoidsImpl : MonoBehaviour, BoidsInterface
             }
 
             Follow follow = entity.GetComponent<Follow>();
-            Vector3 destination = entity.transform.position;
-            if (follow.IsFollowing())
+            if (!follow.IsFollowing())
             {
-                destination = follow.GetDestination();
+                continue;
             }
 
+            Vector3 destination = entity.transform.position;
+            destination = follow.GetDestination();
             alignmentVector += destination - entity.transform.position;
             alignmentBoidsCount++;
         }
